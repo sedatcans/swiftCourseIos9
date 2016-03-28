@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D164021A1CA5F4B30031F221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16402191CA5F4B30031F221 /* AppDelegate.swift */; };
+		D164021C1CA5F4B30031F221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164021B1CA5F4B30031F221 /* ViewController.swift */; };
+		D164021F1CA5F4B30031F221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D164021D1CA5F4B30031F221 /* Main.storyboard */; };
+		D16402211CA5F4B30031F221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16402201CA5F4B30031F221 /* Assets.xcassets */; };
+		D16402241CA5F4B30031F221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16402221CA5F4B30031F221 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D16402161CA5F4B30031F221 /* Permanent Storeage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Permanent Storeage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16402191CA5F4B30031F221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D164021B1CA5F4B30031F221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D164021E1CA5F4B30031F221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D16402201CA5F4B30031F221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D16402231CA5F4B30031F221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D16402251CA5F4B30031F221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D16402131CA5F4B30031F221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D164020D1CA5F4B30031F221 = {
+			isa = PBXGroup;
+			children = (
+				D16402181CA5F4B30031F221 /* Permanent Storeage */,
+				D16402171CA5F4B30031F221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D16402171CA5F4B30031F221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D16402161CA5F4B30031F221 /* Permanent Storeage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D16402181CA5F4B30031F221 /* Permanent Storeage */ = {
+			isa = PBXGroup;
+			children = (
+				D16402191CA5F4B30031F221 /* AppDelegate.swift */,
+				D164021B1CA5F4B30031F221 /* ViewController.swift */,
+				D164021D1CA5F4B30031F221 /* Main.storyboard */,
+				D16402201CA5F4B30031F221 /* Assets.xcassets */,
+				D16402221CA5F4B30031F221 /* LaunchScreen.storyboard */,
+				D16402251CA5F4B30031F221 /* Info.plist */,
+			);
+			path = "Permanent Storeage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D16402151CA5F4B30031F221 /* Permanent Storeage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16402281CA5F4B30031F221 /* Build configuration list for PBXNativeTarget "Permanent Storeage" */;
+			buildPhases = (
+				D16402121CA5F4B30031F221 /* Sources */,
+				D16402131CA5F4B30031F221 /* Frameworks */,
+				D16402141CA5F4B30031F221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Permanent Storeage";
+			productName = "Permanent Storeage";
+			productReference = D16402161CA5F4B30031F221 /* Permanent Storeage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D164020E1CA5F4B30031F221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sedatcan Sonat";
+				TargetAttributes = {
+					D16402151CA5F4B30031F221 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 87DTYQL8ZM;
+					};
+				};
+			};
+			buildConfigurationList = D16402111CA5F4B30031F221 /* Build configuration list for PBXProject "Permanent Storeage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D164020D1CA5F4B30031F221;
+			productRefGroup = D16402171CA5F4B30031F221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D16402151CA5F4B30031F221 /* Permanent Storeage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D16402141CA5F4B30031F221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16402241CA5F4B30031F221 /* LaunchScreen.storyboard in Resources */,
+				D16402211CA5F4B30031F221 /* Assets.xcassets in Resources */,
+				D164021F1CA5F4B30031F221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D16402121CA5F4B30031F221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D164021C1CA5F4B30031F221 /* ViewController.swift in Sources */,
+				D164021A1CA5F4B30031F221 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D164021D1CA5F4B30031F221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D164021E1CA5F4B30031F221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D16402221CA5F4B30031F221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16402231CA5F4B30031F221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D16402261CA5F4B30031F221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D16402271CA5F4B30031F221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D16402291CA5F4B30031F221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Permanent Storeage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sedatcans.Permanent-Storeage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D164022A1CA5F4B30031F221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Permanent Storeage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sedatcans.Permanent-Storeage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D16402111CA5F4B30031F221 /* Build configuration list for PBXProject "Permanent Storeage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16402261CA5F4B30031F221 /* Debug */,
+				D16402271CA5F4B30031F221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16402281CA5F4B30031F221 /* Build configuration list for PBXNativeTarget "Permanent Storeage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16402291CA5F4B30031F221 /* Debug */,
+				D164022A1CA5F4B30031F221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D164020E1CA5F4B30031F221 /* Project object */;
+}
